@@ -1,0 +1,24 @@
+# 웹사이트 기본 정보 설정
+title: "repetition-echo"
+navigation_title: "PROJECT: ECHO"
+description: "1인 게임 개발 프로젝트 일지 및 세계관 설정집"
+avatar: "https://github.com/repetition-echo.png"
+
+# 테마 설정 (가장 깔끔하고 가벼운 기본 위키 테마 적용)
+remote_theme: pmarsceill/just-the-docs
+
+# 왼쪽 메뉴 순서 및 카테고리 구조 정의
+nav_config:
+  - title: "Home"
+    url: "/"
+  - title: "개발 일지 (Devlog)"
+    url: "/devlog/"
+  - title: "세계관 및 설정"
+    url: "/lore/"
+  - title: "스토리 & 소설"
+    url: "/story/"
+
+# 인코딩 및 하이라이트 설정
+encoding: "utf-8"
+markdown: kramdown
+highlighter: rouge
