@@ -6,6 +6,7 @@ avatar: "https://github.com/repetition-echo.png"
 
 # 테마 설정 (가장 깔끔하고 가벼운 기본 위키 테마 적용)
 remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
 
 # 왼쪽 메뉴 순서 및 카테고리 구조 정의
 nav_config:
